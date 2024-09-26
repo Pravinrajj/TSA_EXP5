@@ -4,8 +4,10 @@
 # Ex.No: 05  IMPLEMENTATION OF TIME SERIES ANALYSIS AND DECOMPOSITION
 ### Date: 
 
+
 ### AIM:
 To illustrate how to perform time series analysis and decomposition on the monthly average closing price of XAUUSD (Gold price in USD) from the provided dataset.
+
 
 ### ALGORITHM:
 1. Import the required libraries such as pandas and matplotlib.
@@ -14,6 +16,7 @@ To illustrate how to perform time series analysis and decomposition on the month
 4. Perform the seasonal decomposition process on the resampled data using a defined period.
 5. Plot the original data and the decomposition results (trend, seasonality, residuals).
 6. Display the results with properly formatted axes and labels.
+
 
 ### PROGRAM:
 ```py
@@ -63,6 +66,8 @@ plt.tight_layout()
 plt.show()
 
 ```
+
+
 ### OUTPUT:
 FIRST FIVE ROWS:
 ![image](https://github.com/user-attachments/assets/c0fe9108-a199-408e-bbc0-61ed96a172bd)
@@ -71,6 +76,8 @@ PLOTTING THE DATA:
 ![image](https://github.com/user-attachments/assets/53ff7917-52b9-4627-a9f2-a4e820552b09)
 
 ![image](https://github.com/user-attachments/assets/6049bb25-5ee5-47b9-bcb3-85e954a7a3c5)
+
+
 
 ### RESULT:
 Thus we have created the python code for the time series analysis and decomposition.
